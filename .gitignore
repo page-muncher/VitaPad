@@ -1,0 +1,8 @@
+**/bin/
+**/obj/
+/app/
+/.vs/
+**/settings.json
+**/settings.json.*
+*.user
+*.suo
