@@ -59,7 +59,7 @@ internal static class KeyboardLayouts
               new("All", Clipboard: ClipboardAction.SelectAll), blank,
               blank, Number("1", Key.End, "End"), Number("2", Key.Down, "↓"), Number("3", Key.PageDown, "PgDn"), blank, blank },
             { new("Ctrl", Special: Key.LeftCtrl), new("Alt", Special: Key.LeftAlt), new("Shift", Special: Key.LeftShift),
-              new("Ins", Special: Key.Insert), blank, blank,
+              new("Ins", Special: Key.Insert), new("PrtSc", Special: Key.Snapshot), blank,
               blank, blank, Number("0", Key.Insert, "Ins"), Number(".", Key.Delete, "Del"), new("Enter", Special: Key.Enter), blank }
         }, LeftColumns: 6, LeftAnchor: (0, 2), RightAnchor: (1, 8));
     }

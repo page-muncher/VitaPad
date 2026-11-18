@@ -615,7 +615,7 @@ public partial class MainWindow : Window
     {
         Key key = SpecialKey(face);
         return face.Clipboard == ClipboardAction.None &&
-            key is not (Key.LeftCtrl or Key.LeftAlt or Key.LeftShift or Key.NumLock or Key.Escape or Key.Insert);
+            key is not (Key.LeftCtrl or Key.LeftAlt or Key.LeftShift or Key.NumLock or Key.Escape or Key.Insert or Key.Snapshot);
     }
 
     private Key SpecialKey(KeyFace face) =>

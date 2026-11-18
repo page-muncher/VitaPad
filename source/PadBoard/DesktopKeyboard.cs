@@ -74,7 +74,7 @@ internal static class DesktopKeyboard
         AddModifier(events, modifiers, ModifierKeys.Alt, AltVk);
 
         int modifierCount = events.Count;
-        uint flags = key is >= 0x21 and <= 0x28 or 0x2d or 0x2e or 0x6f or 0x90 ? Extended : 0;
+        uint flags = key is >= 0x21 and <= 0x28 or 0x2c or 0x2d or 0x2e or 0x6f or 0x90 ? Extended : 0;
         events.Add(Input.Keyboard(key, 0, flags));
         events.Add(Input.Keyboard(key, 0, flags | KeyUp));
         for (int i = modifierCount - 1; i >= 0; i--)

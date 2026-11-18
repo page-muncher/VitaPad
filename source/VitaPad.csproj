@@ -1,5 +1,5 @@
 <Project Sdk="Microsoft.NET.Sdk">
-  <PropertyGroup><OutputType>WinExe</OutputType><TargetFramework>net10.0-windows</TargetFramework><UseWPF>true</UseWPF><UseWindowsForms>true</UseWindowsForms><ImplicitUsings>disable</ImplicitUsings><Nullable>enable</Nullable><AllowUnsafeBlocks>true</AllowUnsafeBlocks><Version>1.5.0</Version><AssemblyName>VitaPad</AssemblyName><ApplicationManifest>app.manifest</ApplicationManifest></PropertyGroup>
+  <PropertyGroup><OutputType>WinExe</OutputType><TargetFramework>net10.0-windows</TargetFramework><UseWPF>true</UseWPF><UseWindowsForms>true</UseWindowsForms><ImplicitUsings>disable</ImplicitUsings><Nullable>enable</Nullable><AllowUnsafeBlocks>true</AllowUnsafeBlocks><Version>1.5.1</Version><AssemblyName>VitaPad</AssemblyName><ApplicationManifest>app.manifest</ApplicationManifest></PropertyGroup>
   <PropertyGroup><ApplicationIcon>VitaPad.ico</ApplicationIcon></PropertyGroup>
   <ItemGroup><EmbeddedResource Include="Controller.svg" /><EmbeddedResource Include="VitaPad.ico" /></ItemGroup>
 </Project>

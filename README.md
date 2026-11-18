@@ -6,9 +6,9 @@ VitaPad is a portable Windows 11 x64 controller mapper with an integrated floati
 
 ## Start using VitaPad
 
-Download and extract `VitaPad-v1.5.0-portable.zip`, then run `VitaPad.exe`. The runtime is included. The controller studio opens maximized, and mappings pause while it is visible. Close or minimize the studio, choose **To tray**, or hold controller **Start** for one second to enable your mappings. Tapping Start in the studio selects its binding.
+Download and extract `VitaPad-v1.5.1-portable.zip`, then run `VitaPad.exe`. The runtime is included. The controller studio opens maximized, and mappings pause while it is visible. Close or minimize the studio, choose **To tray**, or hold controller **Start** for one second to enable your mappings. Tapping Start in the studio selects its binding.
 
-Click the controller icon in the notification area, or launch VitaPad again, to reopen the running instance's studio. When upgrading from a build older than 1.5.0, exit the old instance from its tray menu once before launching the new version.
+Click the controller icon in the notification area, or launch VitaPad again, to reopen the running instance's studio. When upgrading from a build older than 1.5.1, exit the old instance from its tray menu once before launching the new version.
 
 ## Controller mapping
 
@@ -48,7 +48,7 @@ A new configuration assigns **Base R3** in Profile 1 to PadBoard. Send VitaPad t
 
 Circle applies its effect while held. Tap it to arm the next emitted key, or double-tap within 300 ms to lock. Tap again to unlock. An unused one-shot stays armed until used. After one second, activate the same modifier again to cancel it. The visible Ctrl, Alt, and Shift keys follow the same rules. Circle on QWERTY shares Shift's state. One dot marks an armed modifier and two mark a lock.
 
-Output keys consume one-shots. Moving the highlight, switching layouts, and arming another modifier preserve them. Symbols includes **All** to the right of **Paste** for selecting the focused field's text.
+Output keys consume one-shots. Moving the highlight, switching layouts, and arming another modifier preserve them. Symbols includes **All** to the right of **Paste** for selecting the focused field's text. **PrtSc** immediately to the right of **Ins** sends Print Screen once per press.
 
 The floating panel absorbs clicks. Tap it to reveal its circular **Hide** control. Typing uses the controller. Move the panel with the right stick to any available work-area edge. The panel keeps keyboard focus in the receiving application.
 
@@ -78,7 +78,7 @@ dotnet build .\source\VitaPad.csproj -c Release
 
 ## Validation and limits
 
-The packaged v1.5.0 executable passed 133 engine checks and 92 visual/integration replay checks. An isolated cross-process test verified reopening the studio by launching VitaPad again, including requests during startup.
+The packaged v1.5.1 executable passed 133 engine checks and 92 visual/integration replay checks. An isolated cross-process test verified reopening the studio by launching VitaPad again, including requests during startup.
 
 Physical Retroid/Moonlight testing remains pending. The broader live desktop typing test was interrupted by a foreground focus change, so its full suite is unverified for this release. Ctrl+Backspace and other shortcuts depend on the receiving application. Original gamepad input is also delivered to applications. Windows output injection follows application elevation restrictions.
 
